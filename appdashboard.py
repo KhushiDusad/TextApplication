@@ -11,7 +11,7 @@ def main():
 
     # Sidebar with buttons for each application
     st.sidebar.title("Select an Application")
-    app_selection = st.sidebar.radio("Go to:", ("PDF to Text", "Text to PDF", "Text to Speech", "Image Text Extractor"))
+    app_selection = st.sidebar.radio("Go to:", ("PDF to Text Converter", "Text to PDF Converter", "Text to Speech Converter", "Image Text Extractor"))
 
     if app_selection == "PDF to Text":
         pdftotextconverter.main()
