@@ -13,11 +13,11 @@ def main():
     st.sidebar.title("Select an Application")
     app_selection = st.sidebar.radio("Go to:", ("PDF to Text Converter", "Text to PDF Converter", "Text to Speech Converter", "Image Text Extractor"))
 
-    if app_selection == "PDF to Text":
+    if app_selection == "PDF to Text Converter":
         pdftotextconverter.main()
-    elif app_selection == "Text to PDF":
+    elif app_selection == "Text to PDF Converter":
         texttopdfconverter.main()
-    elif app_selection == "Text to Speech":
+    elif app_selection == "Text to Speech Converter":
         texttospeechconverter.main()
     elif app_selection == "Image Text Extractor":
         image_text_extractor.main()
