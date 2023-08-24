@@ -1,0 +1,7 @@
+streamlit
+PyPDF2
+reportlab
+pyttsx3
+Pillow
+requests
+pytesseract
